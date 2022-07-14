@@ -3,7 +3,7 @@ import prompt from "prompt-sync";
 const comando = prompt()
 const cssProprieties = (input) => {
     let output = []
-    while (input != "saida") {
+    while (input != "sair") {
         output.push(input);
         input = comando("Insira uma propriedade CSS:")
     }
